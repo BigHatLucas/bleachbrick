@@ -1,18 +1,14 @@
-*{
-    color:#fff600;
-    background-color:black;
-    border: #fff600 2px;
-    display: flex;
-    flex-direction: column;
+body{
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: black;
+  color: #fff600;
+  display: flex;
+  flex-direction: column;
 }
 
-.container{
-    display: flex;
-}
-
-.item{
-    background: deeppink;
-    border: 4px;
-    height: 100px;
-    flex:1;
+img{
+  width: 200px;
 }
