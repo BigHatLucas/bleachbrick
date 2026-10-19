@@ -3,6 +3,10 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+a{
+  color: #fff666;
+  text-decoration: none;
+}
 header{
   font-family: "Press Start 2P", sans-serif;
   font-weight: 400;
@@ -12,6 +16,8 @@ header{
   border-style: solid;
   border-width: 4px;
   border-color: #ff5e00;
+  padding: 6%;
+  margin: 0%;
 }
 
 body{
@@ -21,4 +27,35 @@ body{
   border-left: dashed;
   border-right: dashed;
   color: #ffa600;
+}
+.box1{
+  border:solid;
+  border-color:#23d300;
+  color: #23d300;
+  pading: 4%;
+  margin: 4%;
+}
+.box2{
+  border:solid;
+  border-color:#1dff8e;
+  color: #1dff8e;
+  padding: 4%;
+  margin: 4%;
+}
+
+.box3{
+  border:solid;
+  border-color:#088dfa;
+  color: #088dfa;
+  padding: 4%;
+  margin: 4%;
+
+}
+
+.box4{
+  border:solid;
+  border-color:#fa08e6;
+  color: #fa08e6;
+  padding: 4%;
+  margin: 4%;
 }
