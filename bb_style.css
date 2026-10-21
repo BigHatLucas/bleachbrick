@@ -70,10 +70,22 @@ body{
   margin: 4%;
 }
 
+.box5{
+  border:solid;
+  border-color: #ff0000;
+  color: #ff0000;
+  padding: 4%;
+  margin: 4%;
+  display:flex;
+  justify-content: space-around;
+  align-content: center;
+
+}
+
 .index{
   border:solid;
-  border-color: #ff0022;
-  color: #ff0022;
+  border-color: #eeff00;
+  color: #eeff00;
   padding: 4%;
   margin: 4%;
   display:flex;
