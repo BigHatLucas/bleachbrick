@@ -10,20 +10,25 @@ a{
   a:hover{
     color: red;
   }
-  a:visited{
-    color:#23d300;
-  }
+ 
 header{
   font-family: "Press Start 2P", sans-serif;
-  font-weight: 400;
   font-style: normal;
-  color: #fdfa1f;
-  background-color: black;
+  color: #eeff00;
   border-style: solid;
   border-width: 4px;
-  border-color: #ff5e00;
-  padding: 6%;
+  border-color: #ffee00;
+  padding: 2%;
   margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.headbox{
+  border:dotted;
+  border-color: #eeff00;
 }
 
 body{
@@ -34,6 +39,10 @@ body{
   border-right: dashed;
   color: #ffa600;
 }
+.headbox{
+
+}
+
 .box1{
   border:solid;
   border-color:#23d300;
@@ -92,3 +101,12 @@ body{
   justify-content: space-around;
   align-content: center;
 }
+
+.image{
+  { 
+    flex: 1 1 100%;
+    width: 100%;
+    min-width: 1px;
+    max-width: 100%;
+    height: auto;
+  }
