@@ -6,7 +6,13 @@
 a{
   color: #fff666;
   text-decoration: none;
-}
+  }
+  a:hover{
+    color: red;
+  }
+  a:visited{
+    color:#23d300;
+  }
 header{
   font-family: "Press Start 2P", sans-serif;
   font-weight: 400;
@@ -32,8 +38,12 @@ body{
   border:solid;
   border-color:#23d300;
   color: #23d300;
-  pading: 4%;
+  padding: 4%;
   margin: 4%;
+
+  position: fixed;
+  top:0%;
+  right: 0%;
 }
 .box2{
   border:solid;
@@ -58,4 +68,15 @@ body{
   color: #fa08e6;
   padding: 4%;
   margin: 4%;
+}
+
+.index{
+  border:solid;
+  border-color: #ff0022;
+  color: #ff0022;
+  padding: 4%;
+  margin: 4%;
+  display:flex;
+  justify-content: space-around;
+  align-content: center;
 }
